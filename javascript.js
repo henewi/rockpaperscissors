@@ -33,3 +33,4 @@ console.log(player)
 if (computer == 1 && player == 1) {
     console.log("Draw.")
 }
+
