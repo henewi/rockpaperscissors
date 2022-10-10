@@ -38,40 +38,46 @@ function computerrps() {
     return result
 }
 
-console.log(computerrps()) 
+function playerrps() {
+    let playerval = prompt("Enter rock, paper or scissors:").toLowerCase()
+    while (playerval != ("rock" || "paper" || "scissors")) {
+
+    }
+    return playerval
+}
+
+//playerrps()
+console.log(playerrps())
 
 const computer = randomIntFromInterval(1,3) // 
-
-// NUMBER FROM THE player //
-
-const player = Number(prompt("Type 1 for Rock, 2 for Paper and 3 for Scissors!"))
+//const player = prompt("Enter rock, paper or scissors:")
 
 //console.log(computer)
 //console.log(player)
 
 // If/Else statements. //
 
-if (computer == 1 && player == 2) {
-    alert("You win, paper beats rock!")
-}
-if (computer == 1 && player == 3) {
-    alert("You lose, rock beats scissors!")
-}
-if (computer == 2 && player == 1) {
-    alert("You lose, paper beats rock!")
-}
-if (computer == 2 && player == 3) {
-    alert("You win, scissors beats paper!")
-}
-if (computer == 3 && player == 1) {
-    alert("You lose, rock beats scissors!")
-}
-if (computer == 3 && player == 2) {
-    alert("You lose, scissors beats paper!")
-}
-if (computer == player) {
-    alert("It's a draw!")
-}
-if (player > 3) {
-    alert("Enter either 1, 2 or 3. Reload the page and try again.")
-}
+// if (computer == 1 && player == 2) {
+//     alert("You win, paper beats rock!")
+// }
+// if (computer == 1 && player == 3) {
+//     alert("You lose, rock beats scissors!")
+// }
+// if (computer == 2 && player == 1) {
+//     alert("You lose, paper beats rock!")
+// }
+// if (computer == 2 && player == 3) {
+//     alert("You win, scissors beats paper!")
+// }
+// if (computer == 3 && player == 1) {
+//     alert("You lose, rock beats scissors!")
+// }
+// if (computer == 3 && player == 2) {
+//     alert("You lose, scissors beats paper!")
+// }
+// if (computer == player) {
+//     alert("It's a draw!")
+// }
+// if (player > 3) {
+//     alert("Enter either 1, 2 or 3. Reload the page and try again.")
+// }
