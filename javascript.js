@@ -40,16 +40,27 @@ function computerrps() {
 
 function playerrps() {
     playerval = prompt("Enter rock, paper or scissors:").toLowerCase()
-    while (playerval != ("rock" || "paper" || "scissors")) {
-        playerval = prompt("Enter rock, paper or scissors:").toLowerCase()
+    while (playerval != "rock" || playerval != "paper" || playerval != "scissors") {
+        //console.log("Wrong value, type again")//
+        playerval = prompt("Wrong value, type again!").toLowerCase()
     }
     return playerval
 }
 
-//playerrps()
-console.log(playerrps())
+// var computer = computerrps() 
 
-var computer = randomIntFromInterval(1,3) // 
+// var player = playerrps()
+
+// if (player == computer) {
+//     alert("DRAW!")
+// }
+// else if ((computer == "rock" && player == "paper")||(computer == "paper" && player == "scissors")||(computer == "scissors" && player == "rock")) {
+//     alert("You win, beautiful!")
+// }
+// else {
+//     alert("You lose, stinkyhead")
+// }
+
 //const player = prompt("Enter rock, paper or scissors:")
 
 //console.log(computer)
