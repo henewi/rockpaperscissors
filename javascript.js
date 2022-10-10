@@ -26,10 +26,10 @@ const computer = randomIntFromInterval(1,3)
 
 const player = Number(prompt("Type 1 for Rock, 2 for Paper and 3 for Scissors!"))
 
-console.log(computer)
-console.log(player)
+//console.log(computer)
+//console.log(player)
 
-// COMPUTER ROCK (1) //
+// If/Else statements. //
 
 if (computer == 1 && player == 2) {
     console.log("You win, paper beats rock!")
@@ -40,4 +40,18 @@ if (computer == 1 && player == 3) {
 if (computer == 2 && player == 1) {
     console.log("You lose, paper beats rock!")
 }
-
+if (computer == 2 && player == 3) {
+    console.log("You win, scissors beats paper!")
+}
+if (computer == 3 && player == 1) {
+    console.log("You lose, rock beats scissors!")
+}
+if (computer == 3 && player == 2) {
+    console.log("You lose, scissors beats paper!")
+}
+if (computer == player) {
+    console.log("It's a draw!")
+}
+if (player > 3) {
+    console.log("Enter either 1, 2 or 3. Reload the page and try again.")
+}
