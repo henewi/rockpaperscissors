@@ -29,3 +29,7 @@ const player = Number(prompt("Type 1 for Rock, 2 for Paper and 3 for Scissors!")
 console.log(player)
 
 // COMPUTER ROCK (1) //
+
+if (computer == 1 && player = 1) {
+    console.log("Draw.")
+}
