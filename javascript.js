@@ -39,9 +39,9 @@ function computerrps() {
 }
 
 function playerrps() {
-    let playerval = prompt("Enter rock, paper or scissors:").toLowerCase()
+    playerval = prompt("Enter rock, paper or scissors:").toLowerCase()
     while (playerval != ("rock" || "paper" || "scissors")) {
-
+        playerval = prompt("Enter rock, paper or scissors:").toLowerCase()
     }
     return playerval
 }
@@ -49,7 +49,7 @@ function playerrps() {
 //playerrps()
 console.log(playerrps())
 
-const computer = randomIntFromInterval(1,3) // 
+var computer = randomIntFromInterval(1,3) // 
 //const player = prompt("Enter rock, paper or scissors:")
 
 //console.log(computer)
