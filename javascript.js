@@ -47,6 +47,8 @@ function playerrps() {
     return playerval
 }
 
+console.log(playerrps)
+
 // var computer = computerrps() 
 
 // var player = playerrps()
