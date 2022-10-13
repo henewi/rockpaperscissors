@@ -23,6 +23,8 @@ function computerrps() {
     return result
 }
 
+console.log(computerrps)
+
 function playerrps() {
     let playerval = prompt("Enter rock, paper or scissors:").toLowerCase()
     while (playerval != "rock" || playerval != "paper" || playerval != "scissors") {
