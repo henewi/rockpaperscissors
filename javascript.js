@@ -1,6 +1,3 @@
-
-// RANDOM NUMBER GENERATOR FOR THE COMPUTER // 
-
 function randomIntFromInterval(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min)
 }
@@ -23,16 +20,22 @@ function computerrps() {
     return result
 }
 
+function invalidInput(userInput) {
+  return !["rock", "paper", "scissors"].includes(userInput)
+
+}
+
 function playerrps() {
-    playerval = prompt("Enter rock, paper or scissors:").toLowerCase()
-    while (playerval != "rock" || playerval != "paper" || playerval != "scissors") {
-        //console.log("Wrong value, type again")//
-        playerval = prompt("Wrong value, type again!").toLowerCase()
+    playerval = prompt("Enter rock, paper or scissors:").toLowerCase();
+    while (invalidInput(playerval)) {
+        playerval = prompt("Wrong value, type again!").toLowerCase();
     }
     return playerval
 }
 
-console.log(playerrps)
+playerrps()
+
+//console.log(invalidInput("rocK"))
 
 // var computer = computerrps() 
 
