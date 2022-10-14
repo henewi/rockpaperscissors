@@ -34,6 +34,8 @@ function playerrps() {
 
 playerrps()
 
+console.log("test");
+
 //console.log(invalidInput("rocK"))
 
 // var computer = computerrps() 
