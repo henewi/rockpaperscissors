@@ -22,7 +22,6 @@ function computerrps() {
 
 function invalidInput(userInput) {
   return !["rock", "paper", "scissors"].includes(userInput)
-
 }
 
 function playerrps() {
