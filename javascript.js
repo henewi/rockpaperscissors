@@ -34,7 +34,7 @@ function playerrps() {
 
 playerrps()
 
-console.log("test");
+console.log("test2");
 
 //console.log(invalidInput("rocK"))
 
