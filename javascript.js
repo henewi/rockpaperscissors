@@ -57,7 +57,7 @@ var computer = randomIntFromInterval
 
 console.log(computer)
 console.log(player)
-
+console.log("testtesttestmerge")
 // If/Else statements. //
 
 if (computer == 1 && player == 2) {
