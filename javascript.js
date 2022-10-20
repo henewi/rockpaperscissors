@@ -34,25 +34,26 @@ function randomIntFromInterval(min, max) {
 
 // playerrps()
 
-console.log("test2");
+//console.log("test2");
 
-console.log(invalidInput("rocK"))
+//console.log(invalidInput("rocK"))
 
-var computer = computerrps() 
+// var computer = computerrps() 
 
-var player = playerrps()
+// var player = playerrps()
 
-if (player == computer) {
-    alert("DRAW!")
-}
-else if ((computer == "rock" && player == "paper")||(computer == "paper" && player == "scissors")||(computer == "scissors" && player == "rock")) {
-    alert("You win, beautiful!")
-}
-else {
-    alert("You lose, stinkyhead")
-}
+// if (player == computer) {
+//     alert("DRAW!")
+// }
+// else if ((computer == "rock" && player == "paper")||(computer == "paper" && player == "scissors")||(computer == "scissors" && player == "rock")) {
+//     alert("You win, beautiful!")
+// }
+// else {
+//     alert("You lose, stinkyhead")
+// }
 
 const player = prompt("Enter rock, paper or scissors:")
+var computer = randomIntFromInterval
 
 console.log(computer)
 console.log(player)
