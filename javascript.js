@@ -57,7 +57,7 @@ const player = prompt("Enter rock, paper or scissors:")
 console.log(computer)
 console.log(player)
 
-If/Else statements. //
+// If/Else statements. //
 
 if (computer == 1 && player == 2) {
     alert("You win, paper beats rock!")
